@@ -12,43 +12,57 @@ header {
   padding: 0;
 }
 .containernav {
-  width: 100%;
+  width: 80%;
   height: 70px;
   margin: 0 auto;
   border: 1px solid black;
   overflow: hidden;
-  position: fixed;
 }
 .leftnav, .rightnav {
   padding: 25px;
 }
 .leftnav {
-  padding-left: 7%;
   width: 30%;
   float: left;
 }
 .rightnav {
-  padding-left: 40%;
+  position: relative;
   width: 70%;
   float: right;
 }
+.rightnav ul {
+  margin-top: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 /* SEARCH BAR ICON + SEARCH */
+.leftnav ul, .rightnav ul {
+  padding: 0;
+}
+.leftnav ul li, .rightnav ul li {
+  display: inline-block;
+}
 /* NAVBAR SUB */
-.container {
+.navhead {
   width: 100%;
   height: 70px;
   background-color: #fff;
 }
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
 .subhead-left {
-  padding-left: 7%;
   width: 30%;
   float: left;
+  height: 100%;
 }
 .subhead-left > img {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .subhead-right {
-  padding-left: 40%;
   width: 70%;
   float: right;
 }
@@ -56,8 +70,9 @@ header {
 /* TEXT BOX */
 .txtbox {
   width: 100%;
-  height: 300px;
-  background-color: red;
+  height: 550px;
+  background-image: url("img/hubspot-background.jpg");
+  background-size: cover;
   position: relative;
 }
 .textbox {
@@ -66,4 +81,5 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  word-wrap: break-all;
 }
