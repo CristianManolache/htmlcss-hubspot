@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* NAV BAR HEADER FIX */
+header {
+  background-color: #cecece;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+.containernav {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  border: 1px solid black;
+  overflow: hidden;
+  position: fixed;
+}
+.leftnav, .rightnav {
+  padding: 25px;
+}
+.leftnav {
+  padding-left: 7%;
+  width: 30%;
+  float: left;
+}
+.rightnav {
+  padding-left: 40%;
+  width: 70%;
+  float: right;
+}
+/* SEARCH BAR ICON + SEARCH */
+/* NAVBAR SUB */
+.container {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+.subhead-left {
+  padding-left: 7%;
+  width: 30%;
+  float: left;
+}
+.subhead-left > img {
+  margin-top: 25px;
+}
+.subhead-right {
+  padding-left: 40%;
+  width: 70%;
+  float: right;
+}
+
+/* TEXT BOX */
+.txtbox {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  position: relative;
+}
+.textbox {
+  width: 50%;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
