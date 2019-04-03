@@ -79,7 +79,7 @@ header {
   height: 70px;
 }
 .container {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   height: 100%;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -223,4 +223,151 @@ header {
   padding: 10px;
   display: inline-block;
   text-decoration: none;
+}
+/* 3 Raws */
+.columns::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* marketing */
+.marketing img {
+  width: 235px;
+  height: 150px;
+}
+.marketing {
+  width: 300px;
+  height: 550px;
+  float: left;
+  background-color: white;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+.marketing h2 {
+  margin-top: 5%;
+}
+.marketing h5 {
+  margin-top: 5%;
+}
+.marketing p {
+  font-size: 15px;
+}
+.marketing hr {
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  margin-left: 10%;
+}
+.marketing li {
+  margin-top: 3%;
+  margin-left: 5%;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+.marketingbutton {
+  margin-top: 10%;
+  width: 130px;
+  height: 40px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 5px;
+}
+/* Sales */
+.sales img {
+  width: 235px;
+  height: 150px;
+}
+.sales {
+  width: 300px;
+  height: 550px;
+  float: left;
+  background-color: white;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 3%;
+  margin-left: 10%;
+}
+.sales h2 {
+  margin-top: 5%;
+}
+.sales h5 {
+  margin-top: 5%;
+}
+.sales p {
+  margin-top: 5%;
+  font-size: 15px;
+}
+.sales hr {
+  width: 80%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+.sales li {
+  margin-top: 3%;
+  margin-left: 5%;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+.salesbutton {
+  margin-top: 10%;
+  width: 130px;
+  height: 40px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 5px;
+}
+/* Service */
+.service img {
+  width: 235px;
+  height: 150px;
+}
+.service {
+  float: left;
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+.service h2 {
+  margin-top: 5%;
+}
+.service h5 {
+  margin-top: 5%;
+}
+.service p {
+  font-size: 15px;
+}
+.service hr {
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  margin-left: 10%;
+}
+.service li {
+  margin-top: 3%;
+  margin-left: 5%;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+.servicebutton {
+  margin-top: 10%;
+  width: 130px;
+  height: 40px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: #ff7a59;
+  border: none;
+  border-radius: 5px;
 }
